@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<html xmlns="www.w3c.org">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+	<link rel="shortcut icon" type="" href="">
+		<title> Acessibilidade Digital </title>
+			<link rel="stylesheet" type="text/css" href="css/estilo.css">
+			<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+   <script src="js/meno.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/menu.css">
+   <link rel="shortcut icon" type="image/x-icon" href="img/icn.png">
+   <link rel="stylesheet" href="css/estiloadapt.css">
+				
+</head>
+
+<body>
+<div id="cabeca">
+	<div id="banner" title="Acessibilidade Digital"> </div>
+		<div id="mn">
+		<div id="cssmenu" class="align-center">
+  <ul>
+     <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+     <li class="has-sub"><a href="#"><i class="fa fa-fw fa-bars"></i> Categorias</a>
+        <ul>
+           <li><a href="kids.html">Crianças</a></li>
+		   <li><a href="old.html">Idosos</a></li>
+		   <li><a href="df.html">Deficientes Físicos</a></li>
+		   <li><a href="dv.html">Deficientes Visuais</a></li>
+		   <li><a href="da.html">Deficientes Auditivos</a></li>
+		   <li><a href="dm.html">Deficientes Mentais</a></li>
+		   <li><a href="ots.html">Outros</a></li>
+        </ul>
+     </li>
+     <li class="has-sub"><a href="#"><i class="fa fa-fw fa-bars"></i> Dicas</a>
+		<ul>
+			<li><a href="psite.html">Para Sites</a></li>
+			<li><a href="ppc.html">Para Programas de PC</a></li>
+			<li><a href="papp.html">Para aplicativos de celular</a></li>
+			<li><a href="pots.html">Para outros dispositivos</a></li>
+	 </ul>
+	 </li>
+     <li><a href="softw.html"><i class="fa fa-fw fa-cloud-download"></i> Softwares</a></li>
+     <li><a href="proj.html"><i class="fa fa-fw fa-globe"></i> Projetos</a></li>
+     <li><a href="coms2.html"><i class="fa fa-fw fa-comments-o"></i> Comentários e Sugestões</a></li>
+     <li><a href="quems.html"><i class="fa fa-fw fa-group"></i> Quem Somos</a></li>
+  </ul>
+</div>
+		</div>
+</div>
+
+<div id="conteudops"><br>
+<center><h1> Como criar um site mais acessível? </h1>
+</center>
+<br><br>
+<p class="kcont"> 
+Esta página é dedicada para web-designers que necessitam de orientações e dicas para a construção de um site acessível.
+<br>
+Abaixo, estão listadas dicas para garantir que várias pessoas conseguirão acessar o seu site normalmente:
+<br><br>
+<ul>
+	<li>No início do código html é necessário "comunicar" com o navegador para ele "saber" o tipo de documento que ele está lidando:(entre <>) DOCTYPE HTML; </li>
+	<li> Na segunda linha do código atribuímos o idioma do website e esta informação é de suma importância para que o leitor utilize o dicionário correto ao sintetizar as palavras. Utilizamos tanto a tag xml:lang quanto apenas lang, devido as diferentes versões de navegadores: (entre <>)   html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br”</li>
+	<li>Depois da tag de abertura head, temos a primeira linha de declaração meta onde também é importante declarar a códificação utilizada para o conteúdo do website, no qual a mais usada é a "UTF-8":(entre <>) meta charset="utf-8" </li>
+	<li>Outro atributo bastante importante a ser utilizado é o atributo rel na tag link. Quando linkamos arquivos externos à nossa página é importante para os navegadores textuais que determinemos que tipo de arquivo ou página externa está sendo linkada. Este atributo tem valor pré-definido e o mais usado é: stylesheet. Exemplo:(entre <>) link rel="stylesheet" type="text/css" href="css/estilo.css" </li>
+	<li>Para hyperlinks, tag a, a dica é utilizar o atributo title, com textos claros que exemplifiquem o destino do usuário ao clicar no link e não apenas com a descrição “clique aqui”. </li>
+	<li>Para que o deficiente visual não gaste muito tempo ouvindo, através do leitor de tela, todas as linhas de código que seus scripts tem, aconselha-se o uso da tag noscript para descrever o objetivo do script na página. </li>
+	<li>Evite códigos redundantes ou códigos que não são 100% úteis. </li>
+	<li>Evite Div's desnecessárias. </li>
+	<li>Evite estilos CSS inlines(use sempre arquivos externos). </li>
+	<li>Evite JS ou arquivos Flash sem fallback </li>
+	<li>Evite position absolute ou posicionamentos float desnecessários. </li>
+	<li>Use técnicas simples para elementos como barras de navegação, menus, etc. </li>
+	<li> Procure fazer layouts flexíveis e para evitar possíveis erros de cálculos, use medidas como a porcentagem e deixe que o navegador faça os cálculos.</li>
+</ul>
+</p>
+<br><br>
+
+	
+
+</div>
+<script src='//api.handtalk.me/plugin/latest/handtalk.min.js'></script> 
+<script> 
+var ht = new HT({ 
+token: '87e366afa1d653c9ed56b20630c46b96' 
+}); 
+</script>
+
+</body>
+
+</html>
